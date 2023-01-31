@@ -126,12 +126,12 @@ body {
 }
 
 .h_inner>ul li {
-    padding: 10px;
+    padding: 8px;
     padding-left: 60px;
 }
 
 .list2 ul li {
-    padding: 10px;
+    padding: 8px;
 }
 
 /*header 호버 시*/
@@ -139,11 +139,11 @@ body {
     background-color: rgba(241, 235, 223, 0.3);
 }
 
-.h_inner ul li:hover{
+.h_inner ul li:hover {
     color: #000;
 }
 
-.h_inner .logo:hover{
+.h_inner .logo:hover {
     display: block;
     width: 63px;
     height: 20px;
@@ -151,7 +151,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.list2 .icon1:hover{
+.list2 .icon1:hover {
     display: block;
     width: 30px;
     height: 30px;
@@ -159,7 +159,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.list2 .icon2:hover{
+.list2 .icon2:hover {
     display: block;
     width: 30px;
     height: 30px;
@@ -167,7 +167,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.list2 .icon3:hover{
+.list2 .icon3:hover {
     display: block;
     width: 30px;
     height: 30px;
@@ -188,48 +188,48 @@ div#header.on {
     background-image: url(./images/main/logo3.png);
 }
 
-.on .icon1{
+.on .icon1 {
     background-image: url(./images/main/icon1-2.png);
 }
 
-.on .icon2{
+.on .icon2 {
     background-image: url(./images/main/icon2-2.png);
 }
 
-.on .icon3{
+.on .icon3 {
     background-image: url(./images/main/icon3-2.png);
 }
 
 /*따라내려온 헤더 호버했을 때*/
-.on .logo:hover{
+.on .logo:hover {
     background-image: url(./images/main/logo4.png);
 }
 
-.on .brand:hover{
-    color: rgba(62,26,27,1);
+.on .brand:hover {
+    color: rgba(62, 26, 27, 1);
 }
 
-.on .winery:hover{
-    color: rgba(62,26,27,1);
+.on .winery:hover {
+    color: rgba(62, 26, 27, 1);
 }
 
-.on .shop:hover{
-    color: rgba(62,26,27,1);
+.on .shop:hover {
+    color: rgba(62, 26, 27, 1);
 }
 
-.on .event:hover{
-    color: rgba(62,26,27,1);
+.on .event:hover {
+    color: rgba(62, 26, 27, 1);
 }
 
-.on .icon1:hover{
+.on .icon1:hover {
     background-image: url(./images/main/icon1-3.png);
 }
 
-.on .icon2:hover{
+.on .icon2:hover {
     background-image: url(./images/main/icon2-3.png);
 }
 
-.on .icon3:hover{
+.on .icon3:hover {
     background-image: url(./images/main/icon3-3.png);
 }
 

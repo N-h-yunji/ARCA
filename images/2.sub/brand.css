@@ -1,0 +1,251 @@
+/*font-family: 'Noto Sans KR', sans-serif;*/
+/*프라타 웹폰트 확인하기*/
+
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222;
+}
+
+
+/*mb*/
+#mb{
+    background-image: url(./mainbanner.jpg);
+    background-repeat: no-repeat;
+    height: 972px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    /*header의 기준*/
+}
+
+#mb h1{
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 500;
+}
+
+#mb p{
+    font-size: 19px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+.mbtext{
+    padding-top: 300px;
+}
+
+.mbtext img{
+    margin: 46px 0;
+}
+
+
+
+/*header*/
+#header {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    color: rgba(241, 235, 223);
+}
+
+.h_inner {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.h_inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.h_inner ul {
+    display: flex;
+}
+
+.h_inner ul li {
+    padding: 10px;
+}
+
+/*header 호버했을 때*/
+#header:hover {
+    background-color: rgba(241, 235, 223, 0.3);
+}
+
+
+/*container*/
+.c_inner{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    /*text1 (story of arca)의 기준*/
+}
+
+.text1{
+    text-align: center;
+    margin-top: 210px;
+}
+
+.prata{
+    font-family: "prata";
+    font-size: 60px;
+    font-weight: 400;
+}
+
+#container p{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.text2{
+    margin-top: 600px;
+    margin-bottom: 273px;
+}
+.text2img{
+    background-image: url(./img1.jpg);
+    background-repeat: no-repeat;
+    height: 905px;
+}
+
+.text2text{
+    margin-left: 670px;
+    margin-top: -200px;
+}
+
+.text2text p{
+    margin-left: 90px;
+}
+
+.text1{
+    position: absolute;
+    top: -600px;
+    left: 453.5px;
+}
+
+.text3{
+    margin-left: 592px;
+    margin-bottom: 210px;
+}
+
+.text3text{
+    margin-left: 30px;
+}
+.text3 h4{
+    font-size: 30px;
+    padding-top: 30px;
+    font-weight: 500;
+}
+
+.text3 p, .text5 p{
+    margin-left: 50px;
+}
+
+#container h4{
+    margin-left: 50px;
+}
+
+.text3text p{
+    font-size: 16px;
+}
+
+.text4{
+    margin-bottom: 210px;
+}
+
+.text4text{
+    margin-left: 670px;
+    margin-top: -200px;
+}
+
+.text4text p{
+    margin-left: 90px;
+}
+
+
+.text5{
+    margin-left: 592px;
+    margin-bottom: 210px;
+}
+
+.text5text{
+    margin-left: 30px;
+}
+.text5 h4{
+    font-size: 30px;
+    padding-top: 30px;
+    font-weight: 500;
+}
+
+.text5text p{
+    font-size: 16px;
+}
+
+/*footer*/
+#footer{
+    width: 100%;
+    height: 280px;
+    background-color: rgba(246,244,240,1);
+}
+
+.f_inner{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 95px;
+    font-size: 13px;
+}
+
+#footer h4{
+    font-size: 14px;
+}
+
+.f_text ul{
+    display: flex;
+}
+
+.f_text>ul>li{
+    margin-right: 50px;
+}
+
+.f_icon ul{
+    display: flex;
+}
+
+.f_icon ul li{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+#footer p{
+    margin-top: 20px;
+}
