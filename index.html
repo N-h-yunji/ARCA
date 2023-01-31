@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1450px">
+    <title>ARCA</title>
+    <!--css스타일시트-->
+    <link rel="stylesheet" href="./index.css">
+
+    <!--파비콘 링크-->
+    <link rel="shortcut icon" href="./images/main/favicon (4).ico" type="image/x-icon">
+    <link rel="icon" href="./images/main/favicon (4).ico" type="image/x-icon">
+
+    <!--웹폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!--스와이퍼-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--제이쿼리-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+
+</head>
+
+<body>
+
+
+    <div id="mb">
+        <div class="mbinner">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./images/main/mb_img1.jpg" alt="main1"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./images/main/mb_img2.jpg" alt="main2"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./images/main/mb_img3.jpg" alt="main3"></a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            </script>
+        </div><!--mbinner-->
+    </div><!--mb-->
+
+    <div id="header">
+        <div id="top">
+            <p>아카회원만의 특별한 혜택</p>
+            <!--여기부터 필요구조 시작-->
+
+            <div class="slide-open" id="slide-open">
+                <span class="burgur" id="burgur">
+                    <span class="top-line"></span>
+                    <span class="bot-line"></span>
+                </span>
+            </div><!--slide-open-->
+            <div class="slide" id="slide">
+                <div class="titlebox">
+                    <p>이달의 컨텐츠 보러가기</p>
+                </div><!--titlebox-->
+                <ul>
+                    <li><a href="#section1"><span class="title">와인페어링</span><br>제철굴에 실패할 수 없는 조합, 샴페인과 샤볼리</a></li>
+                    <li><a href="#section2"><span class="title">와인추천</span><br>회식메뉴, 분위기에 따라 어울릴만한 와인 추천! "이번 회식
+                            어디에요?"</a></li>
+                    <li><a href="#section3"><span class="title">와인지식</span><br>요즘 대세, 내츄럴 와인이란? '인위적인 작용을 최소화한' 정통
+                            와인!</a></li>
+                    <li><a href="#section4"><span class="title">와인지식</span><br>와인라벨 읽기, 구대륙과 신대륙 와인의 라벨 차이는?</a></li>
+                    <li><a href="#section5"><span class="title">와인지식</span><br>와인라벨 읽기, 구대륙과 신대륙 와인의 라벨 차이는?</a></li>
+                </ul>
+                <div class="titlebox">
+                    <p>걸어서 와인 속으로</p>
+                </div><!--titlebox-->
+                <ul>
+                    <li><a href="#section1"><span class="title">프랑스</span><br>전세계 와인의 본고장 보르도 와인</a></li>
+                    <li><a href="#section2"><span class="title">프랑스</span><br>세계 최고급 와인 생산으로 명성 높은 부르고뉴 와인</a></li>
+                    <li><a href="#section3"><span class="title">프랑스</span><br>프랑스 상파뉴 지역의 샴페인</a></li>
+                    <li><a href="#section4"><span class="title">미국</span><br>신대륙의 대표산지 나파벨리가 있는 캘리포니아 와인</a></li>
+                    <li><a href="#section5"><span class="title">스페인</span><br>뜨거운 태양과 높은 고원, 스페인 와인</a></li>
+                </ul>
+            </div><!--slide-->
+            <!--필요구조 끝-->
+        </div><!--top-->
+
+        <div class="popup">
+            <a href="#none"><img src="./images/main/popup.jpg" alt="정기구독서비스"></a>
+            <p class="close">X</p>
+        </div><!--popup-->
+
+        <div class="h_inner">
+            <ul>
+                <li><a class="logo" href="./index.html"></a></li>
+                <!--a태그에 클래스주고,블락으로 설정후에 width height 로고 크기만큼 배경화면으로 로고 넣기
+                헤더안에 탑 넣기-->
+                <li><a href="./brand.html" class="brand">brand</a></li>
+                <li><a href="./winery.html" class="winery">winery</a></li>
+                <li><a href="./item.html" class="shop">shop</a></li>
+                <li><a href="./event.html" class="event">event</a></li>
+            </ul>
+            <div class="list2">
+                <ul>
+                    <li><a class="icon1" href="#none"></a></li>
+                    <li><a class="icon2" href="#none"></a></li>
+                    <li><a class="icon3" href="#none"></a></li>
+                </ul>
+            </div><!--list2-->
+        </div><!--h_inner-->
+    </div><!--header-->
+
+    <div id="aboutarca">
+        <div class="aboutcenter">
+            <img src="./images/main/solidline1.png" alt="실선1">
+            <h1>ABOUT ARCA</h1>
+            <a href="./brand.html">
+                <P class="italic">all view</P>
+            </a>
+        </div><!--aboutcenter-->
+        <div class="aboutinner">
+            <div class="abouttext">
+                <h3 data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="3000">Drink Actual Life, Enjoy
+                    with ARCA</h3>
+                <img data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="3000"
+                    src="./images/main/solidline2.png" alt="실선">
+                <h4 data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="3000">아카만의 차이</h4>
+                <p data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="2000">아카는 라틴어로 '방주'라는 뜻으로<br>이름
+                    그 자체에 세상 속 모든 와인을 담겠다는<br>ARCA의 포부를 담은 브랜드입니다.</p><br>
+                <p data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="2000">당신의 모든 취향을 존중하는 아카를 지금
+                    만나보세요.</p>
+                <a href="./brand.html" class="btn2" data-aos="fade-up" data-aos-easing="ease-out-back"
+                    data-aos-duration="1000">
+                    <p>지금 만나보기</p>
+                </a>
+            </div><!--abouttext-->
+            <img data-aos="fade-down" data-aos-easing="ease=out=back" data-aos-duration="2000"
+                src="./images/main/aboutimg1.jpg" alt="자연사진">
+            <img class="product" data-aos="slide-up" data-aos-easing="ease-out-back" data-aos-duration="2000"
+                src="./images/main/aboutimg2.png" alt="제품사진">
+        </div><!--aboutinner-->
+    </div><!--aboutarca-->
+
+    <div id="bestitem">
+        <div class="bestcenter">
+            <img src="./images/main/solidline1.png" alt="실선1">
+            <h1>BEST ITEM</h1>
+            <a href="#">
+                <P class="italic">all view</P>
+            </a>
+        </div><!--aboutcenter-->
+        <div class="bestinner">
+            <ul>
+                <li>
+                    <div class="item">
+                        <div class="itemimg">
+                            <a href="#none"><img src="./images/main/bestitem1.png" alt="아이템1"></a>
+                        </div><!--itemimg-->
+                        <div class="iteminfo">
+                            <div class="flaginfo">
+                                <img src="./images/main/flag1.png" alt="미국국기">
+                                <p>화이트</p>
+                            </div><!--flaginfo-->
+                            <div class="moreinfo">
+                                <h4>더 패더럴리스트 까베르네<br>소비뇽</h4>
+                                <p>The Federalist Carbnet<br>Sauvignon</p>
+                            </div><!--moreinfo-->
+                            <div class="priceinfo">
+                                <p><span class="pricebold">45,000</span>원</p>
+                            </div><!--priceinfo-->
+                        </div><!--iteminfo-->
+                    </div><!--item-->
+                </li>
+                <li>
+                    <div class="item">
+                        <div class="itemimg">
+                            <a href="#none"><img src="./images/main/bestitem2.png" alt="아이템2"></a>
+                        </div><!--itemimg-->
+                        <div class="iteminfo">
+                            <div class="flaginfo">
+                                <img src="./images/main/flag2.png" alt="영국국기">
+                                <p>위스키</p>
+                            </div><!--flaginfo-->
+                            <div class="moreinfo">
+                                <h4>맥탈라 스트라타 15년</h4>
+                                <p>Mac Talla Strata</p>
+                            </div><!--moreinfo-->
+                            <div class="priceinfo">
+                                <p class="margin"><span class="pricebold">240,000</span>원</p>
+                            </div><!--priceinfo-->
+                        </div><!--iteminfo-->
+                    </div><!--item-->
+                </li>
+                <li>
+                    <div class="item">
+                        <div class="itemimg">
+                            <a href="#none"><img src="./images/main/bestitem3.png" alt="아이템3"></a>
+                        </div><!--itemimg-->
+                        <div class="iteminfo">
+                            <div class="flaginfo">
+                                <img src="./images/main/flag3.png" alt="이탈리아국기">
+                                <p>레드</p>
+                            </div><!--flaginfo-->
+                            <div class="moreinfo">
+                                <h4>프레미오 키안티 도크</h4>
+                                <p>Premio Chianti Docg</p>
+                            </div><!--moreinfo-->
+                            <div class="priceinfo">
+                                <p class="margin"><span class="pricebold">12,900</span>원</p>
+                            </div><!--priceinfo-->
+                        </div><!--iteminfo-->
+                    </div><!--item-->
+                </li>
+            </ul>
+        </div><!--bestinner-->
+    </div><!--bestitem-->
+
+    <div id="exclusive">
+        <div class="background">
+        </div><!--background-->
+        <div class="background_position">
+            <div class="background_inner">
+                <div class="back_text">
+                    <h2>ONLY ARCA<br>EXCLUSIVE WINE</h2>
+                    <P>우리 토양이 빚은 우리 와인,<br>아카에서 포도 재배부터 와인 양조까지 책임지고<br>만든 우리 정통 와인입니다.</P>
+                    <a href="#" class="btn2">
+                        <p>바로가기</p>
+                    </a>
+                </div><!--back_text-->
+                <div class="bottleimg">
+                    <img data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-out-back"
+                        src="./images/main/exclusive_bottle.png" alt="보틀사진">
+                    <img data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-out-back"
+                        src="./images/main/exclusive_bottle.png" alt="보틀사진">
+                    <img data-aos="fade-left" data-aos-duration="3000" data-aos-easing="ease-out-back"
+                        src="./images/main/exclusive_bottle.png" alt="보틀사진">
+                </div><!--bottleimg-->
+            </div><!--background_inner-->
+        </div><!--background_position-->
+    </div><!--exclusive-->
+
+
+    <div id="experience">
+        <div class="center">
+            <img src="./images/main/solidline1.png" alt="실선1">
+            <h1>ARCA EXPERIENCE</h1>
+            <a href="#">
+                <P class="italic">all view</P>
+            </a>
+        </div><!--center-->
+
+        <!-- Swiper -->
+        <div class="swiper auto">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="ex1">
+                        <a href="#"><img src="./images/main/ex1.jpg" alt="
+                체험1"></a>
+                        <div class="extext1">
+                            <h3>와이너리 투어</h3>
+                            <p>아카의 역사와 와인 제조 공정까지<br>모든 과정을 직접 체험할 수 있습니다.<br>직접 아카를 만나보세요.</p>
+                            <p class="tt">
+                                아카의 와인은 까다로운 전통의<br>
+                                자연발효공법을 고집하며,<br>
+                                단 한방울의 물도 희석하지 않은<br>
+                                100% 원액 와인입니다.<br><br>주 포도 품종인 캠밸얼리를 활용하여<br>우리 입맛에 최적화시킨 레드와인, <br>머스캣포도의 상큼한 향과 드라이한
+                                맛을 낸 <br>화이트 와인 등의 정통와인을 제조합니다.
+                            </p>
+                            <a href="#" class="btn2">
+                                <p>바로가기</p>
+                            </a>
+                        </div><!--extext1-->
+                    </div><!--ex1-->
+                </div>
+                <div class="swiper-slide">
+                    <div class="ex2">
+                        <a href="#"><img src="./images/main/ex2.jpg" alt="
+                체험2"></a>
+                        <div class="extext2">
+                            <h3>와인 테이스팅</h3>
+                            <p>전문가와 함께 다양한 와인을 시음하고<br>얘기를 나누며 본인의 취향을<br>찾아보세요.</p>
+                            <p class="tt">
+                                알고마실수록 그 맛과 향이<br>더욱 매력적인 와인 <br>아카에서는 각 분야의 전문가들을 초빙하여<br>다양한 경험을 선사해드리고자<br>노력하고있습니다.
+                                <br><br>
+                                아카에서만 독점 계약해 유통하는<br>다양한 와이너리의 와인들을<br>시음하고 구매해보세요!
+                            </p>
+                            </p>
+                            <a href="#" class="btn2">
+                                <p>바로가기</p>
+                            </a>
+                        </div><!--extext2-->
+                    </div><!--ex2-->
+                </div>
+                <div class="swiper-slide">
+                    <div class="ex3">
+                        <a href="#"><img src="./images/main/ex3.jpg" alt="
+                체험3"></a>
+                        <div class="extext3">
+                            <h3>스파 트리트먼트</h3>
+                            <p>와인과 함께하는 향기 치유 트리트먼트<br>오감을 자극하고 몸의 긴장을<br>완화시켜보세요.
+                            <p class="tt">
+                                와인 속에 있는 폴리페놀 성분은<br>항상화제로 작용하여 심장병과 <br>동맥경화를 예방하고 <br>노화를 방지한다고 알려져있습니다. <br><br>
+                                아카는 와인을 주 재료로한<br>스파 제품들로<br>일상 속 자극받은 심신을 안정시킵니다.<br>스파트리트먼트, 풋마사지등 다양한 체험을 함께하세요.
+                            </p>
+                            <a href="#" class="btn2">
+                                <p>바로가기</p>
+                            </a>
+                            </p>
+
+
+                        </div><!--extext3-->
+                    </div><!--ex3-->
+                </div>
+                <div class="swiper-slide">
+                    <div class="ex4">
+                        <a href="#"><img src="./images/main/ex4.jpg" alt="
+                체험4"></a>
+                        <div class="extext4">
+                            <h3>포도 따기 체험</h3>
+                            <p>직접 포도를 따서<br>달콤한 싱싱함을 담아가세요!<br>건강함과 달콤함이 두배가 됩니다.
+                            <p class="tt">
+                                아카는 주말마다 포도농장을 개방합니다.<br>가족, 친구들과 함께 특별한 경험을 해보세요.<br>열심히 수확하여 얻은 포도는<br>더욱 맛있고 싱싱합니다.
+                                <br><br>
+                                매년 8월 시행합니다.<br>아카와 여름을 함께하세요.
+                            </p>
+                            <a href="#" class="btn2">
+                                <p>바로가기</p>
+                            </a>
+                            </p>
+                        </div><!--extext4-->
+                    </div><!--ex4-->
+                </div>
+                <div class="swiper-slide">
+                    <div class="ex5">
+                        <a href="#"><img src="./images/main/ex5.jpg" alt="
+                체험5"></a>
+                        <div class="extext5">
+                            <h3>야외 스몰 웨딩</h3>
+                            <p>인생의 단 한번뿐인 소중한 시간을<br>동화 속의 한 장면으로 바꿔드립니다.<br>아카와 함께하세요
+                            <p class="tt">
+                                끝없이 펼쳐진 푸르름속에서<br>
+                                프라이빗한 결혼식을<br>준비해보세요.
+                                <br><br>
+                                동화 속의 한 장면같은 웅장함과<br> 로맨틱함을 느낄 수 있습니다.
+                            </p>
+                            <a href="#" class="btn2">
+                                <p>바로가기</p>
+                            </a>
+                            </p>
+                        </div><!--extext5-->
+                    </div><!--ex5-->
+                </div>
+                <div class="swiper-slide">
+                    <div class="ex6">
+                        <a href="#"><img src="./images/main/ex6.jpg" alt="
+                체험6"></a>
+                        <div class="extext6">
+                            <h3>와인 피크닉</h3>
+                            <p>파란 잔디밭 위에서<br>자유로움을 만끽하며<br>일상 속 편안함을 느껴보세요.
+                            <p class="tt">
+                                아카 방문 고객님들께<br>피크닉 세트를 제공합니다.<br>잔디밭에 돗자리를 깔고 누워<br>푸른 하늘 아래서 와인과 함께<br>자유로움을 누려보세요.
+                                <br><br>
+                                당일 아카와인 구매 고객께는 <br>피크닉세트 및 와인잔세트가 무료로<br>제공됩니다.
+                            </p>
+                            <a href="#" class="btn2">
+                                <p>바로가기</p>
+                            </a>
+                            </p>
+
+                        </div><!--extext6-->
+                    </div><!--ex6-->
+                </div>
+                <div class="swiper-slide">
+                    <div class="ex7">
+                        <a href="#"><img src="./images/main/ex7.jpg" alt="
+                체험7"></a>
+                        <div class="extext7">
+                            <h3>아카 레스토랑</h3>
+                            <p>미슐랭 출신 셰프의 음식과<br>아카에서만 맛볼 수 있는 와인과 함께<br>사랑하는 사람과 맛있는 저녁을 함께하세요.
+                            <p class="tt">
+                                아카에서는 미슐랭 레스토랑<br>출신 셰프들과 함께<br>레스토랑을 운영합니다.<br><br>
+                                아카레스토랑에만 파는 독점 와인을<br>첫 잔 무료 제공하니<br>방문하여 즐겨보세요.
+                            </p>
+                            <a href="#" class="btn2">
+                                <p>바로가기</p>
+                            </a>
+                            </p>
+                        </div><!--extext7-->
+                    </div><!--ex7-->
+                </div>
+            </div>
+            <div class="autoswiper-button-next"></div>
+            <div class="autoswiper-button-prev"></div>
+            <div class="autoswiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".auto", {
+                slidesPerView: 4,
+                spaceBetween: 15,
+                autoplay: {
+                    delay: 3500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".autoswiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".autoswiper-button-next",
+                    prevEl: ".autoswiper-button-prev",
+                },
+            });
+        </script>
+    </div><!--experience-->
+
+    <div id="event">
+        <div class="center">
+            <img src="./images/main/solidline1.png" alt="실선1">
+            <h1>ARCA EVENT</h1>
+            <a href="#">
+                <P class="italic">all view</P>
+            </a>
+        </div><!--center-->
+        <div class="e_inner">
+            <a href="#">
+                <div class="event">
+                    <img src="./images/main/event1.jpg" alt="이벤트1">
+                    <div class="eventtext1">
+                        <h3>겨울이면 생각나는 뱅쇼</h3>
+                        <h4>취향 듬뿍 담은<br>티 뱅쇼 만들기</h4>
+                        <p>
+                            최성영<br>
+                            redpottea 대표, 전문티 소믈리에
+                        </p>
+                    </div><!--eventtext-->
+                </div><!--event1-->
+            </a>
+            <div class="event">
+                <a href="#"><img src="./images/main/event2.jpg" alt="이벤트2"></a>
+                <div class="eventtext2">
+                    <h3>와인 & 푸드 페어링</h3>
+                    <h4>완벽한 모임을 위한<br>파티요리 & 와인 페어링</h4>
+                    <p>
+                        유성진<br>
+                        레스토랑 FARRO 셰프
+                    </p>
+                </div><!--eventtext-->
+            </div><!--event2-->
+        </div><!--e_inner-->
+    </div><!--event-->
+
+
+    <div id="btn">
+        <a href="#"><img src="./images/4.sub3/btn_top.png" alt=""></a>
+    </div><!--btn-->
+
+
+    <div id="footer">
+        <div class="f_inner">
+            <div class="f_logo">
+                <img src="./images/main/logo2.png" alt="푸터로고">
+                <p>
+                    Copyright © 아카 주식회사.All rights reserved.
+                </p>
+            </div><!--f_logo-->
+            <div class="f_text">
+                <ul>
+                    <li>
+                        <h4>고객센터</h4>
+                        <p>051-111-2222<br>09 : 00 ~ 18 : 00
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Company Info</h4>
+                        <p>상호명 : (주) 아카 와이너리<br>대표 : 나현지<br>주소 : 서울특별시 마포구 양화로 45<br>사업자 등록번호 : 123-456-78950</p>
+                    </li>
+                    <li>
+                        <h4>Contact us</h4>
+                        <div class="f_icon">
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="./images/main/f_icon1.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./images/main/f_icon2.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./images/main/f_icon3.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div><!--f_icon-->
+                    </li>
+                </ul>
+            </div><!--f_text-->
+        </div><!--f_inner-->
+    </div><!--footer-->
+
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
